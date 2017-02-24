@@ -1,0 +1,287 @@
+
+.screen { 
+	height: 520px;
+	width: 780px;
+	margin: auto;
+	position: relative;
+	
+ }
+
+.question { 
+ 	font-size: 30px;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: -400px;
+ 	margin-left: 270px;
+ 	position: absolute;
+ }
+
+
+.rectangle1 { 
+	height: 50px;
+	width: 70px;
+	background-color: white;
+	margin-top: -320px;
+	margin-left: 30px;
+	position: relative;
+	font-size: 20px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	font-style: bold;
+ 	text-align: center;
+ 	line-height: 50px;
+
+ }
+
+ .hover1 { 
+	visibility: hidden;
+	height: 50px;
+	width: 70px;
+	background-color: gray;
+	margin-top: -50px;
+	
+
+}
+
+.rectangle1:hover .hover1 {
+	visibility: visible;
+}
+
+ .rectangle2 { 
+	height: 50px;
+	width: 70px;
+	background-color: white;
+	margin-left: 110px;
+	margin-top: -50px;
+	position: relative;
+	font-size: 20px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	font-style: bold;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+
+
+.hover2 { 
+	visibility: hidden;
+	height: 50px;
+	width: 70px;
+	background-color: gray;
+	margin-top: -50px;
+	
+
+}
+
+.rectangle2:hover .hover2 {
+	visibility: visible;
+}
+
+
+ .rectangle3 { 
+	height: 50px;
+	width: 70px;
+	background-color: white;
+	margin-top: -50px;
+	margin-left: 190px;
+	position: relative;
+	font-size: 20px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	font-style: bold;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+
+ .hover3 { 
+	visibility: hidden;
+	height: 50px;
+	width: 70px;
+	background-color: gray;
+	margin-top: -50px;
+	
+
+}
+
+.rectangle3:hover .hover3 {
+	visibility: visible;
+}
+
+
+ .rectangle4 { 
+	height: 50px;
+	width: 70px;
+	background-color: white;
+	margin-top: -50px;
+	margin-left: 270px;
+	position: relative;
+	font-size: 20px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	font-style: bold;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+
+ .hover4 { 
+	visibility: hidden;
+	height: 50px;
+	width: 70px;
+	background-color: gray;
+	margin-top: -50px;
+	
+
+}
+
+.rectangle4:hover .hover4 {
+	visibility: visible;
+}
+
+ .rectangle5 { 
+	height: 50px;
+	width: 70px;
+	background-color: white;
+	margin-top: -50px;
+	margin-left: 350px;
+	position: relative;
+	font-size: 20px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	font-style: bold;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+
+ .hover5 { 
+	visibility: hidden;
+	height: 50px;
+	width: 70px;
+	background-color: gray;
+	margin-top: -50px;
+
+}
+
+.rectangle5:hover .hover5 {
+	visibility: visible;
+}
+
+ .rectangle6 { 
+	height: 50px;
+	width: 70px;
+	background-color: white;
+	margin-top: -50px;
+	margin-left: 430px;
+	position: relative;
+	font-size: 20px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	font-style: bold;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+
+ .hover6 { 
+	visibility: hidden;
+	height: 50px;
+	width: 70px;
+	background-color: gray;
+	margin-top: -50px;	
+
+}
+
+.rectangle6:hover .hover6 {
+	visibility: visible;
+}
+
+.rectangle7 { 
+	height: 50px;
+	width: 70px;
+	background-color: white;
+	margin-top: -50px;
+	margin-left: 510px;
+	position: relative;
+	font-size: 20px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	font-style: bold;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+
+.hover7 { 
+	visibility: hidden;
+	height: 50px;
+	width: 70px;
+	background-color: gray;
+	margin-top: -50px;	
+
+}
+
+.rectangle7:hover .hover7 {
+	visibility: visible;
+}
+
+.rectangle8 { 
+	height: 50px;
+	width: 70px;
+	background-color: white;
+	margin-top: -50px;
+	margin-left: 590px;
+	position: relative;
+	font-size: 20px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	font-style: bold;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+
+.hover8 { 
+	visibility: hidden;
+	height: 50px;
+	width: 70px;
+	background-color: gray;
+	margin-top: -50px;	
+
+}
+
+.rectangle8:hover .hover8 {
+	visibility: visible;
+}
+
+.rectangle9 { 
+	height: 50px;
+	width: 70px;
+	background-color: white;
+	margin-top: -50px;
+	margin-left: 670px;
+	position: relative;
+	font-size: 20px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	font-style: bold;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+
+.hover9 { 
+	visibility: hidden;
+	height: 50px;
+	width: 70px;
+	background-color: gray;
+	margin-top: -50px;	
+
+}
+
+.rectangle9:hover .hover9 {
+	visibility: visible;
+}
+
+
+
+
+
+ 
+

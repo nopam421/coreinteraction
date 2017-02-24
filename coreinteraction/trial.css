@@ -1,0 +1,102 @@
+.mySlides { 
+	height: 520px;
+	width: 780px;
+	margin: auto;
+	position: relative;
+}
+
+
+.hello { 
+ 	font-size: 50px;
+ 	font-family: Futura, Helvetica; 
+ 	color: white;
+ 	font-style: bold;
+ 	margin-top: -450px;
+ 	margin-left: 42%;
+ 	position: relative;
+
+  }
+
+
+.startbutton { 
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	border-radius: 32px;
+	margin-left: 42%;
+	margin-top: 20%;
+	position: fixed;
+	line-height: 40px;
+	text-align: center;
+	font-family: futura; 
+	font-size: 15px;
+	font-color: black;
+
+ }
+
+.welcome { 
+ 	font-size: 20px;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: 20px;
+ 	position: relative;
+
+
+  }
+
+a { 
+  	color: black;
+	text-decoration: none;
+}
+
+.about1 { 
+	height: 10px;
+	width: 38px;
+	margin-top: -450px;
+	margin-left: 50px;
+	background-color: black;
+	position: absolute;
+}
+
+
+
+
+.window { 
+	visibility: hidden;
+	opacity: 0.6; 
+	height: 450px;
+	width: 150px;
+	background-color: black; 
+	margin-left:0px;
+	margin-top: -150px;
+	position: relative;
+	font-size: 15px;
+ 	font-family: Avenir; 
+ 	color: white;
+ 	font-style: bold;
+ 	padding-left: 40%;
+ 	padding-right: 40%;
+ 	padding-top: 40%;
+ 	text-align: left;
+
+
+ }
+
+.about1:hover .window { 
+	visibility: visible;
+	position: relative;
+
+ }
+
+ .about1:hover { 
+ 	visibility: hidden; 
+ }
+
+.mySlides {
+	display:none;
+	width: 100%;
+
+}
+

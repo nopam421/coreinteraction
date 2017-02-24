@@ -1,0 +1,246 @@
+.screen { 
+	height: 520px;
+	width: 780px;
+	margin: auto;
+	position: relative;
+	
+ }
+
+ .question { 
+ 	font-size: 30px;
+ 	font-family: futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: -450px;
+ 	margin-left: 100px;
+ 	position: absolute;
+  }
+
+  a { 
+  	color: black;
+	text-decoration: none;
+  	 }
+
+.program1 { 
+	margin-top: -350px;
+	position: relative;
+	margin-left: 75px;
+	
+
+}
+
+
+.hover1 { 
+	position: relative;
+	visibility: hidden;
+	opacity: 0.5;
+	margin-top: -87px;
+	margin-left: 0px;
+	height: 84px;
+	width: 300px;
+	background-color: gray;
+
+ }
+
+
+.program2 { 
+	margin-top: 10px;
+	margin-left: 75px;
+	position: relative;
+
+}
+
+.hover2 { 
+	position: relative;
+	visibility: hidden;
+	opacity: 0.5;
+	margin-top: 10px;
+	margin-top: -87px;
+	margin-left: 0px;
+	height: 84px;
+	width: 300px;
+	background-color: gray;
+
+ }
+ 
+.program3 { 
+	position: relative;
+	margin-top: 10px;
+	margin-left: 75px;
+}
+
+
+.hover3 { 
+	position: relative;
+	visibility: hidden;
+	opacity: 0.5;
+	margin-top: 10px;
+	margin-top: -87px;
+	margin-left: 0px;
+	height: 84px;
+	width: 300px;
+	background-color: gray;
+ }
+
+.program4 { 
+	position: relative;
+	margin-left: 400px;
+	margin-top: -272px;
+}
+
+.hover4 { 
+	position: relative;
+	visibility: hidden;
+	opacity: 0.7;
+	margin-top: -272px;
+	margin-top: -87px;
+	margin-left: 0px;
+	height: 84px;
+	width: 300px;
+	background-color: gray;
+
+ }
+.program5 { 
+	position: relative;
+	margin-left: 400px;
+	margin-top: 10px;
+
+}
+
+.hover5 { 
+	position: relative;
+	visibility: hidden;
+	opacity: 0.5;
+	margin-top: -87px;
+	margin-left: 0px;
+	height: 84px;
+	width: 300px;
+	background-color: gray;
+ }
+.program6 { 
+	position: relative;
+	margin-top: 10px;
+	margin-left: 400px;
+
+}
+
+.hover6 { 
+	position: relative;
+	visibility: hidden;
+	opacity: 0.5;
+	margin-top: -87px;
+	margin-left: 0px;
+	height: 84px;
+	width: 300px;
+	background-color: gray;
+
+ }
+
+.program1:hover .hover1 { 
+	position: relative;
+	visibility: visible;
+
+ }
+
+.program2:hover .hover2 { 
+	position: relative;
+	visibility: visible;
+
+ }
+
+  .program3:hover .hover3 { 
+	position: relative;
+	visibility: visible;
+
+
+ }
+
+ .program4:hover .hover4 { 
+	position: relative;
+	visibility: visible;
+
+
+ }
+
+  .program5:hover .hover5 { 
+	position: relative;
+	visibility: visible;
+
+
+ }
+
+ .program6:hover .hover6 { 
+	position: relative;
+	visibility: visible;
+
+
+ }
+
+ .text1 { 
+	font-size: 15px;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: -215px;
+ 	margin-left: -460px;
+ 	position: relative;
+  }
+
+  .text2 { 
+	font-size: 15px;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: 70px;
+ 	margin-left: -460px;
+ 	position: relative;
+  }
+
+   .text3 { 
+	font-size: 15px;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: 70px;
+ 	margin-left: -490px;
+ 	position: relative;
+  }
+
+   .text4 { 
+	font-size: 15px;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: -205px;
+ 	margin-left: 120px;
+ 	position: relative;
+  }
+
+   .text5 { 
+	font-size: 15px;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: 75px;
+ 	margin-left: 135px;
+ 	position: relative;
+  }
+
+   .text6 { 
+	font-size: 15px;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: 75px;
+ 	margin-left: 170px;
+ 	position: relative;
+  }
+
+  

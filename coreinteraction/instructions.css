@@ -1,0 +1,177 @@
+.screen { 
+	height: 520px;
+	width: 780px;
+	margin: auto;
+	position: relative;
+	
+ }
+
+.question { 
+ 	font-size: 30px;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: -485px;
+ 	margin-left: 150px;
+ 	position: absolute;
+ }
+
+
+ .button { 
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	border-radius: 32px;
+	margin-left: 41%;
+	margin-top: -10%;
+	position: relative;
+	line-height: 40px;
+	text-align: center;
+	font-family: futura; 
+	font-size: 15px;
+	font-color: black;
+
+  }
+
+  a { 
+	color: black;
+	text-decoration: none; 
+}
+
+.rectangle1 { 
+	width: 180px;
+	height: 200px;
+	background-color: white;
+	opacity: 0.9;
+	margin-top: -49%;
+	margin-left: 60px;
+	position: relative;
+	font-size: 12px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	padding-left: 2%;
+ 	padding-top: 2%;
+ 	padding-right: 2%;
+ 	font-style: bold;
+ 	position: absolute;
+ 	text-align: center;
+	
+	
+
+ }
+
+ .rectangle2 { 
+	width: 180px;
+	height: 200px;
+	background-color: white;
+	opacity: 0.9;
+	margin-top: -49%;
+	margin-left: 290px;
+	position: relative;
+	font-size: 12px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	padding-left: 2%;
+ 	padding-top: 2%;
+ 	padding-right: 2%;
+ 	font-style: bold;
+ 	position: absolute;
+ 	text-align: center;
+
+	
+
+ }
+
+ .rectangle3 { 
+	width: 180px;
+	height: 200px;
+	background-color: white;
+	opacity: 0.9;
+	margin-top: -49%;
+	margin-left: 520px;
+	position: relative;
+	font-size: 12px;
+ 	font-family: Futura; 
+ 	color: black;
+ 	padding-left: 2%;
+ 	padding-top: 2%;
+ 	padding-right: 2%;
+ 	font-style: bold;
+ 	position: absolute;
+ 	text-align: center;
+	
+
+ }
+
+p { 
+	margin-top: -105px;
+	margin-left: -380px;
+	font-size: 18px;
+	line-height: 180%;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	position: relative;
+ 	text-align: center;
+ 
+
+ }
+
+ .change1 { 
+ 	width: 80px;
+	height: 25px;
+	background-color: white;
+	border-radius: 32px;
+	margin-left: 40%;
+	margin-top: -3.5%;
+	position: relative;
+	line-height: 25px;
+	text-align: center;
+	font-family: futura; 
+	font-size: 12px;
+	font-color: black;
+
+  }
+
+  .change2 { 
+ 	width: 80px;
+	height: 25px;
+	background-color: white;
+	border-radius: 32px;
+	margin-left: 67%;
+	margin-top: -3.5%;
+	position: relative;
+	line-height: 25px;
+	text-align: center;
+	font-family: futura; 
+	font-size: 12px;
+	font-color: black;
+
+  }
+
+.level { 
+	margin-top: -48px;
+	margin-left: 180px;
+	font-size: 18px;
+	line-height: 180%;
+ 	font-family: Futura; 
+ 	color: white;
+ 	font-style: bold;
+ 	position: relative;
+ 	text-align: center;
+ }
+
+.image2{ 
+	margin-top: 40px;
+}
+
+.image3 { 
+	margin-left: -8px;
+
+}
+ 
+
+
+
+
