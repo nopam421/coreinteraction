@@ -1,0 +1,131 @@
+.darkpurple {
+ 	width: 50%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+	background-color:#414166;
+  }
+
+
+.lightpurple { 
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	background-color:#C3BED6;
+
+ }
+
+ .white1 { 
+ 	width: 3vh;
+ 	height: 6vh;
+ 	background-color: white;
+ 	opacity: 0.3;
+ 	margin-top: 6vh;
+ 	margin-left: 2vh;
+ 	transform: rotate(-25deg);
+ 	animation: rotation 5s infinite linear;
+ 	animation-delay: 2s;
+ 	position: relative;
+}
+
+ .white2 { 
+ 	width: 3vh;
+ 	height: 6vh;
+ 	background-color: white;
+    animation: rotation 5s infinite linear;
+    animation-delay: 2s;
+ 	opacity: 0.3;
+ 	margin-top: -5.8vh;
+ 	margin-left: 3.2vh;
+ 	position: relative;
+
+ }
+
+  .white3 { 
+ 	width: 3vh;
+ 	height: 6vh;
+ 	background-color: white;
+ 	opacity: 0.3;
+ 	margin-top: -5vh;
+ 	margin-left: 4.1vh;
+ 	transform: rotate(25deg);
+ 	animation: rotation 5s infinite linear;
+ 	animation-delay: 2s;
+ 	position: relative;
+
+    
+
+ }
+
+
+ .purple1 { 
+ 	width: 3vh;
+ 	height: 6vh;
+ 	background-color: #414166;
+ 	opacity: 0.3;
+ 	margin-top: 6vh;
+ 	margin-left: 2vh;
+ 	transform: rotate(-25deg);
+ 	animation: rotation 5s infinite linear;
+ 	animation-delay: 2s;
+ 	position: relative;
+}
+
+ .purple2 { 
+ 	width: 3vh;
+ 	height: 6vh;
+ 	background-color: #414166;
+    animation: rotation 5s infinite linear;
+    animation-delay: 2s;
+ 	opacity: 0.3;
+ 	margin-top: -5.8vh;
+ 	margin-left: 3.2vh;
+ 	position: relative;
+
+ }
+
+  .purple3 { 
+ 	width: 3vh;
+ 	height: 6vh;
+ 	background-color: #414166;
+ 	opacity: 0.3;
+ 	margin-top: -5vh;
+ 	margin-left: 4.2vh;
+ 	transform: rotate(25deg);
+ 	animation: rotation 5s infinite linear;
+ 	animation-delay: 2s;
+ 	position: relative;
+ }
+
+
+
+@keyframes rotation { 
+
+30% {
+		transform: rotateZ(360deg);
+		opacity: 0.1;
+		  }
+60% { 
+		transform: initial;
+		opacity: 0.7;
+ }
+
+}
+
+
+
+.maincontainer {
+width:20vh; /* 20% screen size */
+height:20vh;
+
+}
+
+
+div#flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
