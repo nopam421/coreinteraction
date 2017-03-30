@@ -1,0 +1,20 @@
+<bookcase> 
+	<shelf id="top-shelf"> 
+		<book id="Eleven Minutes"></book>
+		<book id="Bombay Stories"></book> 
+		<book id="The Kite Runner"></book>
+		<book id="A Thousand Splendid Suns"></book> 
+		<book id="Catcher in the Rye"></book>
+	</shelf> 
+
+	<folders id="middle-shelf">
+		<folder id="Design Studies"></folder>
+		<folder id="Finance for Management"</folder> 
+	</folders> 
+
+	<magazines id="bottom-shelf">
+		<magazine id="Vogue"></magazine>
+		<magazine id="W"</magazine> 
+	</magazines>
+</bookcase>
+

@@ -1,0 +1,119 @@
+#Eleven Minutes { 
+	language: English;
+	font-style: serif;
+	my-rating: 4stars; 
+	friend-who-recommended-it-to-me: Fathima; 
+	book-genre: fiction; 
+	thickness: medium;
+	page-count: 232; 
+	cover-style: hardcover; 
+
+}
+
+#Bombay Stories {
+	language: English;
+	font-style: serif;
+	my-rating: 3stars; 
+	friend-who-recommended-it-to-me: Fathima; 
+	book-genre: fiction; 
+	thickness: medium;
+	page-count: 365; 
+	cover-style: softcover; 
+
+	
+}
+
+#The Kite Runner {
+	language: English;
+	font-style: serif;
+	my-rating: 5stars; 
+	book-genre: fiction; 
+	thickness: medium;
+	page-count: 248; 
+	cover-style: softcover; 
+
+}
+
+#A Thousand Splendid Suns{
+	language: English;
+	font-style: serif;
+	my-rating: 4stars; 
+	book-genre: fiction; 
+	thickness: medium;
+	page-count: 367; 
+	cover-style: softcover; 
+
+	
+}
+
+#Catcher in the Rye {
+	language: English;
+	font-style: serif;
+	my-rating: 4stars; 
+	book-genre: fiction; 
+	thickness: medium;
+	friend-who-recommended-it-to-me: Fathima; 
+	page-count: 292; 
+	cover-style: softcover; 
+
+}
+
+#Design Studies { 
+	language: English;
+	font-style: semi-serif;
+	content: notes;  
+	notes-thickness: medium;
+	semester: spring;  
+	year: 2017; 
+
+}
+
+#Finance for Management { 
+	language: English;
+	font-style: semi-serif;
+	content: notes;  
+	notes-thickness: small;
+	semester: spring;  
+	year: 2017; 
+
+}
+
+#Vogue {
+	language: English;
+	font-style: serif, sans-serif;
+	my-rating: 4stars; 
+	genre: magazine; 
+	thickness: medium;
+	page-count: 402;
+	cover-style: softcover; 
+	year: 2017; 
+
+	
+}
+
+#W { 
+	language: English;
+	font-style: serif, sans-serif;
+	my-rating: 2stars; 
+	genre: magazine; 
+	thickness: medium;
+	page-count: 212;
+	cover-style: softcover; 
+	year: 2017; 
+
+}
+
+query: [language~=“English”]
+result: Eleven Minutes, Bombay Stories, The Kite Runner, A Thousand Splendid Suns, Catcher in the Rye, Design Studies, Finance for Management, Vogue, W 
+
+query: [my-rating~=“4 stars”]
+result: Eleven Minutes, A Thousand Splendid Suns, Catcher in the Rye, Vogue 
+
+query: [title~=“the”]
+result: The Kite Runner, Catcher in the Rye
+
+query: [year~=“2017”]
+result: Design Studies, Finance for Management, Vogue, W 
+
+query: [font-style~=“serif”]
+result: Eleven Minutes, Bombay Stories, The Kite Runner, A Thousand Splendid Suns, Catcher in the Rye
