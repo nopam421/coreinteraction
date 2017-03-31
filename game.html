@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script src="jquery-3.2.0.min.js"></script>
+  <title> Match the Code </title>
+    <style>
+
+      p { 
+        font-family: Menlo;
+        font-size: 6vh;
+        color: black;
+        margin-left: 6vh;
+        margin-top: 3vh;
+
+       }
+ 
+      *{
+      box-sizing: border-box;
+    }
+
+      body { 
+        margin:0%; 
+        background-color: #E6E6E6;
+      }
+
+      div#memory_board{
+        background-color: #E6E6E6;
+        width:100%;
+        position: relative;
+        padding: 2vh;
+        margin-top: 7vh;
+      }
+
+      div#memory_board > div{
+        background: black;
+        width:17.5vh;
+        height:11.5vh;
+        display: inline-block;
+        margin-top:3vh;
+        margin-left: 3vh;
+        border-radius: 1vh;
+      }
+
+      .question { 
+        font-size: 3vh;
+        font-family: Menlo;
+        width: 6vh;
+        height: 6vh;
+        border-radius: 100%;
+        background-color: #E6E6E6;
+        border: 0.5vh solid black;
+        margin-left: 145vh;
+        position: relative;
+        margin-top: -12vh;
+        line-height: 5.5vh;
+        text-align:center;
+        /*transition: all 1s ease-in-out;*/
+
+       }
+
+      .question:hover { 
+        width: 50vh;
+        height: 40vh;
+        background-color: #999;
+        opacity: 0.5;
+        border-radius: 0;
+        border: 0;
+        }
+
+       .definitionCard {
+        font-size: 12px;
+        font-family: Menlo;
+        line-height: 11.5vh;
+        cursor:pointer;
+        text-align:center;
+        color: white;
+
+       }
+
+       .letterCard { 
+        font-size:6vh;
+        font-family: Menlo;
+        line-height: 11.5vh;
+        cursor:pointer;
+        text-align:center;
+        color: white;
+
+        }
+
+
+    </style>
+
+    <script>
+
+var memory_array = ['A','a','B','b','C','c','D','d','E','e','F','f','G','g','H','h','I','i','J','j','K','k','L','l','M', 'm','N', 'n','O', 'o', 'P', 'p','Q', 'q', 'R', 'r', 'S', 's', 'T','t', 'U', 'u',  'V', 'v', 'W', 'w', 'X', 'x', 'Y', 'y', 'Z', 'z', '.', '.', '-', '-', '!', '!'];
+
+
+
+var memory_values = [];
+var memory_tile_ids = [];
+var tiles_flipped = 0;
+Array.prototype.memory_tile_shuffle = function(){
+    var i = this.length, j, temp;
+    while(--i > 0){
+        j = Math.floor(Math.random() * (i+1));
+        temp = this[j];
+        this[j] = this[i];
+        this[i] = temp;
+    }
+}
+function newBoard(){
+  tiles_flipped = 0;
+  var output = '';
+    memory_array.memory_tile_shuffle();
+  for(var i = 0; i < memory_array.length; i++){
+    // added yesterday output+= '<div id="tile_'+i'" 
+    var newCardDiv;
+    var classString;
+    if( isLowerCase(memory_array[i]) ) {
+      classString = "definitionCard";
+      newCardDiv = '<div id="tile_'+i+'" class=' + classString + ' onclick="memoryFlipTile(this,\''+memory_array[i] +'\')"></div>';
+    } 
+    // onclick="memoryFlipTile(this,\''+memory_array[i]+'\')"></div>';
+  //}
+
+// added yesterday
+    else{
+      classString = "letterCard";
+      newCardDiv = '<div id="tile_'+i+'" class=' + classString + ' onclick="memoryFlipTile(this,\''+memory_array[i]+'\')"></div>';
+    }
+
+    output += newCardDiv;
+  }
+
+//added before
+
+  document.getElementById('memory_board').innerHTML = output;
+}
+
+
+var letter = $('.letterCard').text().length;
+
+// if (letter >= 2) {
+//   $('.letterCard').css("font-size", "10px");
+//   console.log('this works');
+// }
+
+// added yesterday 
+
+function isLowerCase(character){
+  if(character >= 'a' && character <= 'z') return true;
+  return false;
+}
+
+// added before 
+
+function whichLetter(val) { 
+  switch(val){
+    case 'a': 
+      return "animation-name";
+      break ; 
+
+    case 'b':
+      return "background";
+      break ; 
+
+    case 'c': 
+      return "content";
+      break ; 
+
+    case 'd': 
+      return "display";
+      break ; 
+
+    case 'e':
+      return "element";
+      break ; 
+
+    case 'f': 
+      return "font-family";
+      break ; 
+
+    case 'g': 
+      return "glitch";
+      break ; 
+
+    case 'h':
+      return "height";
+      break ; 
+
+    case 'i': 
+      return "image-rendering";
+      break ; 
+
+    case 'j': 
+      return "justify-content";
+      break ; 
+
+    case 'k':
+      return "kerning";
+      break ; 
+
+    case 'l': 
+      return "list";
+      break ; 
+
+    case 'm': 
+      return "margin";
+      break ; 
+
+    case 'n':
+      return "nav";
+      break ; 
+
+    case 'o': 
+      return "opacity";
+      break ; 
+
+    case 'p': 
+      return "position";
+      break ; 
+
+    case 'q':
+      return "quotes";
+      break ; 
+
+    case 'r': 
+      return "resize";
+      break ; 
+
+    case 's': 
+      return "span";
+      break ; 
+
+    case 't':
+      return "transform";
+      break ; 
+
+    case 'u': 
+      return "unordered list";
+      break ; 
+
+    case 'v': 
+      return "visibility";
+      break ; 
+
+    case 'w':
+      return "width";
+      break ; 
+
+    case 'x': 
+      return "x-overflow";
+      break ; 
+
+    case 'y':
+      return "y-overflow";
+      break ; 
+
+    case 'z': 
+      return "z-index";
+      break ; 
+
+    case '.': 
+      return "HTML";
+      break ; 
+
+    case '.':
+      return "CSS";
+      break ; 
+
+    case '-': 
+      return "JS";
+      break ;
+  }
+
+
+
+}
+
+function memoryFlipTile(tile,val){
+  if(tile.innerHTML == "" && memory_values.length < 2){
+    tile.style.background = '#000';
+    //test for 'a'
+    // val = 'b';
+    if ( isLowerCase(val) )
+    {
+      tile.innerHTML = whichLetter(val);
+    } else {
+      tile.innerHTML = val;
+    }
+    // tile.innerHTML = val;
+    if(memory_values.length == 0){
+      memory_values.push(val);
+      memory_tile_ids.push(tile.id);
+    } else if(memory_values.length == 1){
+      memory_values.push(val);
+      memory_tile_ids.push(tile.id);
+      if(memory_values[0].toUpperCase() == memory_values[1].toUpperCase()){
+        tiles_flipped += 2;
+        // Clear both arrays
+        memory_values = [];
+              memory_tile_ids = [];
+        // Check to see if the whole board is cleared
+        if(tiles_flipped == memory_array.length){
+          alert("Board cleared... generating new board");
+          document.getElementById('memory_board').innerHTML = "";
+          newBoard();
+        }
+      } else {
+        function flip2Back(){
+            // Flip the 2 tiles back over
+            var tile_1 = document.getElementById(memory_tile_ids[0]);
+            var tile_2 = document.getElementById(memory_tile_ids[1]);
+            tile_1.style.background = '#000';
+                  tile_1.innerHTML = "";
+            tile_2.style.background = '#000';
+                  tile_2.innerHTML = "";
+            // Clear both arrays
+            memory_values = [];
+                  memory_tile_ids = [];
+        }
+        setTimeout(flip2Back, 500);
+      }
+    }
+  }
+}
+
+
+
+
+
+</script>
+</head>
+<body>
+<p> MATCH THE CODE </p>
+<div class = "question">?</div>
+<div id="memory_board"></div>
+<script>newBoard();</script>
+
+</body>
+</html>
