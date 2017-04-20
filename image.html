@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Homework</title>
+    <style> 
+      body{ 
+        font-family: monospace;
+        font-size: 10px;
+
+
+       }
+
+
+    </style>
+  </head>
+
+  <body>
+    <div id="image"></div>
+    <script src="jquery-3.2.1.min.js"></script>
+  <script>
+    var url ="https://raw.githubusercontent.com/robbykraft/Interaction/master/mystery.json" 
+
+    $.getJSON(url, function(data) {
+    console.log(data);
+
+     var image = data.pixels; 
+    console.log(image);
+
+
+
+    for(var i = 0; i < 27; i++){
+      for(var j = 0; j < 23; j++){
+
+        console.log(image[i][j]); 
+
+        if(image[i][j] == 0) $("#image").append( "." );
+        if(image[i][j] == 1) $("#image").append( "#" );
+        if(image[i][j] == 2) $("#image").append( "&" );
+        if(image[i][j] == 3) $("#image").append( "$" );
+
+
+    }
+
+     $("#image").append( "<br>" );
+}
+
+
+
+});
+
+  </script>
+    
+  </body>
+</html>
