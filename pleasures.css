@@ -1,0 +1,25 @@
+*{ 
+  box-sizing: border-box;
+ }
+
+body { 
+  background-color: white;
+  margin:0;
+ }
+
+.circle { 
+  background-color: #4D0A83;
+  margin-top: 1vh;
+  margin-left: 1vh;
+  display: inline-block;
+ }
+
+#wrapper { 
+  width: 60vh;
+  height: 60vh;
+  position : relative;
+  margin-left: 28vh;
+  transform: translate(50%,50%);
+ }
+
+ 
