@@ -1,5 +1,6 @@
 *{ 
   box-sizing: border-box;
+  font-size: 0;
  }
 
 body { 
@@ -9,17 +10,31 @@ body {
 
 .circle { 
   background-color: #4D0A83;
-  margin-top: 1vh;
-  margin-left: 1vh;
+  margin-top: 1.5vh;
+  margin-left: 1.5vh;
+  width: 7vh;
+  height: 7vh;
   display: inline-block;
+  padding: 0;
+
  }
 
 #wrapper { 
-  width: 60vh;
+  width: 170vh;
   height: 60vh;
   position : relative;
-  margin-left: 28vh;
+  margin-left: -46%;
+  margin-top: 5%;
   transform: translate(50%,50%);
+  overflow: hidden;
  }
 
- 
+ .text { 
+  font-size: 6vh;
+  font-family: Avenir;
+  margin-left: 40%;
+  margin-top: 8%;
+  }
+
+
+
