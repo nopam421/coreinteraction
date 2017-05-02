@@ -16,6 +16,7 @@ body {
   height: 2.5vh;
   display: inline-block;
   padding: 0;
+  opacity: 0.5;
 }
 
 
@@ -24,12 +25,12 @@ body {
   to { opacity: 0; }
 }
 
-/*.circleAnimation{ 
+.circleAnimation{ 
   animation: blinker 1s infinite alternate; 
   animation-timing-function: ease-in-out;
   animation-delay: 0.2s; 
 }
-*/
+
 
 
 #wrapper { 
